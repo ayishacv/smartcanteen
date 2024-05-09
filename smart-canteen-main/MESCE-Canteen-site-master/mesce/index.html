@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESCE Canteen | Home</title>
+    
+    <!-- Page Icon -->
+    <link rel="Micosoft icon" href="assets/images/MESCE LOGO.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+          crossorigin="anonymous" />
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- Firebase Connectivity Using CDN -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <!-- Sweet Alert Pop Modal -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+    <!-- NavBar -->
+    <header class="navbar" id="preview-navbar"><!-- Comes From Js File --></header>
+
+    <!-- Mobile Navbar -->
+    <header class="mob-navbar" id="mob-preview-navbar"><!-- Comes through JS --></header>
+
+    <!-- Modal SignUp -->
+    <section class="signup-modal"><!-- Comes From Js File --></section>
+
+    <!-- Modal LogIn -->
+    <section class="sign-modal"><!-- Comes From Js File --></section>
+
+    <section class="prakat-ho-animation">
+        <img src="assets/images/homepage.jpg" loading="lazy" alt="Home Page Image">
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero my-2">
+        <main class="container-min grid grid-1 jc-ai-center">
+            <h1 class="clr-m lg text-center">MESCE CANTEEN</h1>
+            <article class="hero-article flex jc-ai-center">
+                <img src="assets/images/logooo.svg" loading="lazy">
+                
+                <div class="my-2 p-2">
+                    <h3 class="clr-f md">Asian Cuisines & Beverages</h3>
+                    <p>Step into our lively canteen, dedicated to providing our community with fresh, flavorful, and nutritious Asian-inspired dishes. Explore our menu and enjoy refreshing fruit juices bursting with natural goodness. Join us for a culinary journey where every dish is carefully crafted with curated ingredients and authentic recipes! </p>
+                    <div class="social-icons">
+                        <ul class="flex">
+                            <li><a href="https://youtube.com/@mesce7193?si=A8CvidBbXs5jeQnu" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                            <li><a href="https://m.facebook.com/profile.php?id=109258819092953" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com/mescollegeofengineering?igsh=N2QydWR3MG5sYmw3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <hr>
+
+    
+
+    <!-- Most Loved Dishes -->
+    <section class="dishes my-4">
+        <main class="container-min">
+            <h1 class="text-center lg p-1">Our Most Loved Dishes</h1>
+            <div class="flex jc-ai-center" id="best-dishes-container">
+                <!-- Comes Through JS -->
+            </div>
+        </main>
+    </section>
+
+    <section class="prakat-ho-animation">
+        <img src="assets/images/homepage.jpg" loading="lazy" alt="Home Page Image">
+    </section>
+
+    <!-- Customers Footer -->
+    <footer class="customer-footer"><!-- Comes Through JS --></footer>
+    
+
+    <!-- Creative Features -->
+    <script src="assets/js/features.js"></script>
+    <!-- Controls User Stuff -->
+    <script src="assets/js/functioning.js"></script>
+    <!-- Page Animations -->
+    <script src="assets/js/animations.js"></script>
+</body>
+</html>
